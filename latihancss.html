@@ -1,0 +1,52 @@
+<html>
+    <head>
+         <!--css eksternal-->
+    <link rel="sylesheet" href="styling.css">
+
+    <!--css internal-->
+    <!--cara stylingnya langsung panggil nama tag-->
+    <style>
+    *{height: 100%;}
+
+    body{background-color: beige;
+    display:flex;
+    flex-direction:column;padding-top: 5%;padding-bottom: 5%;}
+    
+    header{font-size: 36px;
+    background-color: aquamarine;
+    text-align: center;}
+
+    aside{background-color:blue;
+    font-size: 28px;
+    text-align: center;
+    width: 20%;}
+
+    section {background-color: aqua;
+    display: flex;flex:content;
+    break-after: left;}
+
+    article{width: 100%;}
+
+    main{background-color:blueviolet;font-size: 24px;font-style: italic;
+    display: flex;}
+
+    footer{background-color:brown;font-size: 30px;text-align:center;
+    flex:1; display: flex; flex:content;
+    height: 30%;padding-bottom: 5%;}
+    </style>
+        
+
+    </head>
+    <body>
+        <header>Header</header>
+        <main>
+            <aside>sidebar</aside>
+            <section>
+                <article>bagian 1</article>
+                <article>bagian 2</article>
+            </section>
+          
+        </main>
+        <footer>Footer</footer>
+    </body>
+</html>
